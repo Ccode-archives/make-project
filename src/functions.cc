@@ -23,4 +23,7 @@ func file(file) {
     }
 }
 func python() {
-    
+    file("main.py")
+    file("README.md")
+}
+
