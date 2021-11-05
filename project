@@ -1,4 +1,4 @@
 [ ! -d $HOME/Ccode ] && exit 1
 [ ! -d $HOME/make-project ] && exit 1
 [ ! -f $HOME/make-project/merged.cc ] && exit 1
-python3 $HOME/Ccode $HOME/make-project/merged.cc $@
+python3 $HOME/Ccode/Ccode.py $HOME/make-project/merged.cc $@
