@@ -1,7 +1,7 @@
 set args = argv()
-if args[1] == "py" {
+if args[0] == "py" {
     python()
 }
-elif args[1] == "-h" {
+elif args[0] == "-h" {
     print("indev")
 }
