@@ -7,7 +7,10 @@ Make project files for different languages. (written in Ccode)
 bash setup-runner.sh
 ```
 # make python projects
+```
 project py
+```
 # help
+```
 project -h
 ```
