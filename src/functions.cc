@@ -28,3 +28,11 @@ func python() {
     print("Made a python project!")
 }
 
+func c() {
+    folder("src")
+    folder("doc")
+    folder("lib")
+    file("README.md")
+    file("Makefile")
+}
+
