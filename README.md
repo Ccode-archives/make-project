@@ -10,6 +10,10 @@ bash setup-runner.sh
 ```
 project py
 ```
+# make c projects
+```
+project c
+```
 # help
 ```
 project -h
