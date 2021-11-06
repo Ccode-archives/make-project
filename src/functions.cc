@@ -22,10 +22,14 @@ func file(file) {
     js }); js
     }
 }
+
+func message(lang="null") {
+    print("Made a " + lang + " project!")
+}
 func python() {
     file("main.py")
     file("README.md")
-    print("Made a python project!")
+    message("python")
 }
 
 func c() {
@@ -34,5 +38,6 @@ func c() {
     folder("lib")
     file("README.md")
     file("Makefile")
+    message("c")
 }
 
